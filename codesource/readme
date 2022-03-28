@@ -1,0 +1,22 @@
+Commande makefile 
+    make 
+        genere l'executable pc et l'executable pi raspbery en croisé.
+    make clean
+        enléve les executable et .o
+    PI
+        genere l'executable pi raspbery en croisé.
+    PC
+        genere l'executable pc
+    PI_sur_PI
+        genére l'excutable pi raspbery pas en croisé.
+        ne peux donc étre utilisé que directment depuis le raspbery
+    import
+        import avec scp depuis le pc vers le rasp les dossier utile à la compilation sur le rasp 
+    importCode
+        import avec scp depuis le pc vers le rasp le dosier codesource
+    importTarg
+        import avec scp depuis le pc vers le rasp le dosier target_pi
+    debug
+        lence le make all en mode debug
+    undraw 
+        lence le make all en mode debug et retire l'afichage des frame (draw_ascii)
